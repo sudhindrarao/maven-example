@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+  serverId: art1
+  snapshotRepo: test-maven-virtual
+  releaseRepo: test-maven-virtual
+deployer:
+  serverId: art1
+  snapshotRepo: test-maven-local
+  releaseRepo: test-maven-local
